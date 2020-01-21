@@ -8,7 +8,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/go_rest_api.feature"},
+        features = {"src/test/resources/features/goresturl/go_rest_api.feature"},
         glue = "co.in.gorest.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )

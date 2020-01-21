@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Sign in to the web page" skipped="0" tests="1" time="1.24" timestamp="2020-01-21 02:28:27"><testcase name="User is logged into web page with data from file csv"><failure message="Invalid URL: &quot;https://micuenta.tigo.com.co/&quot;" type="java.lang.AssertionError">Invalid URL: "https://micuenta.tigo.com.co/"</failure><system-err>Invalid URL: "https://micuenta.tigo.com.co/"&#13;
+com.co.micuenta.tigo.tasks.login.OpenTheBrowserTask.performAs(OpenTheBrowserTask.java:20)&#13;
+com.co.micuenta.tigo.tasks.login.NavigateWebTask.performAs(NavigateWebTask.java:14)&#13;
+com.co.micuenta.tigo.stepdefinitions.LoginTigoStepDefinitions.userWillGetDataFromCsv(LoginTigoStepDefinitions.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>
